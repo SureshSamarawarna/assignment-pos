@@ -1,0 +1,16 @@
+POST http://localhost:8080/assignment/api/orders
+Content-Type: application/json
+
+{
+  "customerId": "C001",
+  "orderDetails": [
+    {
+      "code": "I001",
+      "qty": 4
+    },
+    {
+      "code": "I002",
+      "qty": 2
+    }
+  ]
+}

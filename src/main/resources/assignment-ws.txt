@@ -1,0 +1,2 @@
+Orders
+    Place a new order   POST    /orders
